@@ -1,0 +1,6 @@
+pandas
+plotly
+streamlit
+sqlalchemy
+mysql-connector-python
+statsmodels
