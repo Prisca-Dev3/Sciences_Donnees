@@ -1,0 +1,11 @@
+Variable,Type_Donnees,Description,Unite,Plage_Valeurs,Valeurs_Possibles
+datetime,datetime,Date et heure de la mesure de consommation,ISO 8601,Varies,N/A
+individu_id,string,Identifiant unique de l'individu/usager utilisant la connexion,ID,Varies,ID unique par usager
+jour_semaine,categorical,Jour de la semaine de la mesure,Texte,"Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche",Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche
+periode_journee,categorical,Période du jour de la mesure,Texte,"Matin (6h-12h), Après-midi (12h-18h), Soirée (18h-21h), Nuit (21h-6h)","Matin (6h-12h)|Après-midi (12h-18h)|Soirée (18h-21h)|Nuit (21h-6h)"
+statut_connexion,categorical,Statut de la connexion Internet,Binaire,"Connecté, Déconnecté",Connecté|Déconnecté
+session_id,string,Identifiant unique de la session de connexion,ID,Varies,ID unique par session
+duree_minutes,numeric,Durée de la mesure,Minutes,0+,Entier positif
+download_Mo,numeric,Quantité de données téléchargées,Mégaoctets (Mo),0+,Nombre décimal positif
+upload_Mo,numeric,Quantité de données téléchargées vers le serveur,Mégaoctets (Mo),0+,Nombre décimal positif
+total_Mo,numeric,Quantité totale de données transférées,Mégaoctets (Mo),0+,Nombre décimal positif
